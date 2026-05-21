@@ -70,7 +70,7 @@ Edited walkthrough.md -->
 The **WhatsApp Status Saver** Android app is fully built and compiled. Here's what's ready:
 
 ### 📦 APK
-`G:\whatsappstatusdownload\app\build\outputs\apk\debug\app-debug.apk` — **19.8 MB**
+`G:\whatsappstatusdownload\app\build\outputs\apk\debug\app-debug.apk` — **22.7 MB**
 
 ### What's in the app
 
