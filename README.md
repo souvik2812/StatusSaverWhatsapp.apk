@@ -91,6 +91,19 @@ The **WhatsApp Status Saver** Android app is fully built and compiled. Here's wh
 - ✨ **Animated download button** — Idle → InProgress → Done → Failed with visual feedback
 - 🌑 **Always-dark Material 3** — neon violet/electric blue glassmorphism palette
 
+    
+### 🎵 New Feature — Audio Player & Manager
+| File |	What it does |
+|---|---|
+| **StatusItem.kt** | Added isAudio computed property |
+| **StorageRepository.kt** | Parses .opus .m4a .mp3 .aac .ogg .3gp; downloads audio to Music/StatusSaver |
+| **AudioPlayerScreen.kt** | (NEW)	Full-screen player: animated pulsing rings, Play/Pause, seekbar with mm:ss, Share, Download |
+| **GalleryScreen.kt** | New "Audio 🎵" tab (index 3) + AudioCard list row |
+| **StatusViewModel.kt** | Tab range extended to 0..3; correct snackbar messages (Music/Movies/Pictures) |
+| **AndroidManifest.xml** | FileProvider + READ_MEDIA_AUDIO permission |
+| **file_provider_paths.xml** | (NEW)	FileProvider config for sharing |
+
+
 ### To install on device
 ```powershell
 adb install "G:\whatsappstatusdownload\app\build\outputs\apk\debug\app-debug.apk"
